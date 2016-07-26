@@ -14,9 +14,9 @@ ISO_MD5=2ac1f3e0de626e54d05065d6f549fa3a
 
 # FIXME This URL is for testing only. It needs to be replaced with the
 #       training-labs repo URL before the patch is merged
-readonly _PS_ssh=https://github.com/openstack/training-labs/plain/labs/osbash/lib/osbash/netboot/preseed-ssh-v4.cfg
-readonly _PS_vbadd=https://github.com/openstack/training-labs/plain/labs/osbash/lib/osbash/netboot/preseed-vbadd.cfg
-readonly _PS_all=https://github.com/openstack/training-labs/plain/labs/osbash/lib/osbash/netboot/preseed-all-v2.cfg
+readonly _PS_ssh=https://github.com/openstack/training-labs/labs/osbash/lib/osbash/netboot/preseed-ssh-v4.cfg
+readonly _PS_vbadd=https://github.com/openstack/training-labs/labs/osbash/lib/osbash/netboot/preseed-vbadd.cfg
+readonly _PS_all=https://github.com/openstack/training-labs/labs/osbash/lib/osbash/netboot/preseed-all-v2.cfg
 
 # Arguments for ISO image installer
 readonly _BOOT_ARGS="/install/vmlinuz

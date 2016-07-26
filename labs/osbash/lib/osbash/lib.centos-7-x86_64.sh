@@ -13,9 +13,9 @@ VM_BASE_MEM=1024
 readonly ISO_URL=http://buildlogs.centos.org/rolling/7/isos/x86_64/CentOS-7-x86_64-DVD-1511.iso
 readonly ISO_MD5=c875b0f1dabda14f00a3e261d241f63e
 
-readonly _KS_ssh=https://github.com/openstack/training-labs/plain/labs/osbash/lib/osbash/netboot/ks-ssh-v2.cfg
-readonly _KS_vbadd=https://github.com/openstack/training-labs/plain/labs/osbash/lib/osbash/netboot/ks-vbadd.cfg
-readonly _KS_all=https://github.com/openstack/training-labs/plain/labs/osbash/lib/osbash/netboot/ks-all-v2.cfg
+readonly _KS_ssh=https://github.com/openstack/training-labs/labs/osbash/lib/osbash/netboot/ks-ssh-v2.cfg
+readonly _KS_vbadd=https://github.com/openstack/training-labs/labs/osbash/lib/osbash/netboot/ks-vbadd.cfg
+readonly _KS_all=https://github.com/openstack/training-labs/labs/osbash/lib/osbash/netboot/ks-all-v2.cfg
 
 readonly _BOOT_ARGS="linux ks=%s"
 

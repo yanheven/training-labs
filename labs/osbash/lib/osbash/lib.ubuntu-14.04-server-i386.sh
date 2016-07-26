@@ -12,9 +12,9 @@ readonly ISO_URL_BASE=http://releases.ubuntu.com/14.04/
 ISO_URL=$ISO_URL_BASE/ubuntu-14.04.3-server-i386.iso
 ISO_MD5=352009d5b44f0e97c9558919f0147c0c
 
-readonly _PS_ssh=https://github.com/openstack/training-labs/plain/labs/osbash/lib/osbash/netboot/preseed-ssh-v4.cfg
-readonly _PS_vbadd=https://github.com/openstack/training-labs/plain/labs/osbash/lib/osbash/netboot/preseed-vbadd.cfg
-readonly _PS_all=https://github.com/openstack/training-labs/plain/labs/osbash/lib/osbash/netboot/preseed-all-v2.cfg
+readonly _PS_ssh=https://github.com/openstack/training-labs/labs/osbash/lib/osbash/netboot/preseed-ssh-v4.cfg
+readonly _PS_vbadd=https://github.com/openstack/training-labs/labs/osbash/lib/osbash/netboot/preseed-vbadd.cfg
+readonly _PS_all=https://github.com/openstack/training-labs/labs/osbash/lib/osbash/netboot/preseed-all-v2.cfg
 
 # Arguments for ISO image installer
 readonly _BOOT_ARGS="/install/vmlinuz
